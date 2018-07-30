@@ -1,0 +1,12 @@
+cargo-features = ["edition"]
+
+[package]
+name = "csv"
+version = "0.1.0"
+authors = ["author <author@example.com>"]
+edition = "2018"
+
+[dependencies]
+pest = "1.0"
+pest_derive = "1.0"
+
