@@ -3,6 +3,10 @@
 
 use pest::Parser;
 
+// Work around
+#[macro_use]
+extern crate pest_derive;
+
 const _GRAMMAR: &str = include_str!("csv.pest");
 
 #[derive(Parser)]
